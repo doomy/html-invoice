@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+}
+
+.head {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3.1rem;
+    margin-bottom: 1.4rem;
+    line-height: 3.5rem;
+}
+
+.smaller {
+    font-size: 90%;
+}
+
+table.supplier-client {
+    margin: 5rem;
+}
+
+table {
+    width: 100%;
+}
+
+table.symetric th, table td {
+    width: 50%;
+    text-align: left;
+}
+
+table.supplier-client > thead > tr > th, table.supplier-client > thead >tr > td,
+table.supplier-client > tbody > tr > th, table.supplier-client > tbody >tr > td,
+table.table-items > thead > tr > th, table.table-items > thead >tr > td,
+table.table-items > tbody > tr > th, table.table-items > tbody >tr > td {
+    padding: 1.2rem  0.6rem;
+}
+
+.name { font-size: 130%; font-weight: bold; }
+
+table.table-items, table.total {
+    width: 85%;
+    margin: 0 auto;
+}
+
+table.table-items thead {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+table.table-items th, table.table-items td {
+    white-space: nowrap;
+    text-align: right;
+}
+
+table.table-items thead tr th:first-child,
+table.table-items tbody tr td:first-child {
+    width: 50%;
+    text-align: left;
+}
+
+table.total {
+    margin-top: 4rem;
+}
+
+table.total td:nth-child(2) {
+    text-align: right;
+    border-top: 1px solid black;
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+}
+
+.footer {
+    width: 85%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 7rem;
+}
